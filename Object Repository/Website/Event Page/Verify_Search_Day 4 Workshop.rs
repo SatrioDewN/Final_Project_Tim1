@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_Search_Day 4 Workshop</name>
+   <tag></tag>
+   <elementGuidId>53ff5f78-b9bd-4f59-8df0-a6b5eff6ee82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='blockListEvent']/a/div/div/div[2]/div/h4</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.headerTitle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>5dc755a0-12a4-40f5-afba-f74836fd6eac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>headerTitle</value>
+      <webElementGuid>495d9aa0-ace0-438f-84de-cad4096b3b2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Day 4: Workshop
+                                                    </value>
+      <webElementGuid>2d174e53-7982-478c-84be-a260802c72f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;blockListEvent&quot;)/a[1]/div[@class=&quot;cardOuter&quot;]/div[@class=&quot;blockHeader&quot;]/div[@class=&quot;blockHeaderTitle&quot;]/div[@class=&quot;centerTitle&quot;]/h4[@class=&quot;headerTitle&quot;]</value>
+      <webElementGuid>b8cecd35-c961-41bb-ae59-c5160b189a1a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='blockListEvent']/a/div/div/div[2]/div/h4</value>
+      <webElementGuid>96f34a37-b276-4c96-bc11-d6db535ef4bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Events'])[4]/following::h4[1]</value>
+      <webElementGuid>e5b3bf4a-774f-424e-b183-c3b287d851a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CODING.ID Event'])[1]/following::h4[1]</value>
+      <webElementGuid>c133e361-274b-4b7b-b994-c914cacd2d96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='With Ziyad Syauqi Fawwazi'])[1]/preceding::h4[1]</value>
+      <webElementGuid>948c022f-f13e-4a8f-90cb-7a0e7a21a5d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Day 4: Workshop']/parent::*</value>
+      <webElementGuid>0b660dca-f14e-4e33-b7a5-78c3a7317d1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>a9943b36-e2b6-4916-877a-c7f5dde47c8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'Day 4: Workshop
+                                                    ' or . = 'Day 4: Workshop
+                                                    ')]</value>
+      <webElementGuid>73d91084-64b9-4ff6-8210-937e3a105e7b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

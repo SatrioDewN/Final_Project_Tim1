@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that open event with different topic can be added to the cart simultaneously</description>
+   <name>CDW_4-10_Adding 2 event simultaneously</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d677122b-ba36-4d35-99bf-11b4b41fccfa</testCaseGuid>
+</TestCaseEntity>

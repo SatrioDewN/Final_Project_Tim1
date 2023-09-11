@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the workings of &quot;Buat Akun&quot; button functionality</description>
+   <name>CDW_2-05_Make Account Button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>381a4aa8-7962-4560-be2d-0933a3d93bc1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify user can Login using correct email dan Password</description>
+   <name>CDM_2-10_Sign Up</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc5ec6cb-9bd5-4743-8e81-2872a730562e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that Open event can be added to cart</description>
+   <name>CDW_4-06_Open event added to cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fcb3d0e6-2cbf-4a5b-8813-c5bf3df32d9c</testCaseGuid>
+</TestCaseEntity>
