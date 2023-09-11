@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Check that event page can be accessed and there's the detail in it</description>
-   <name>CDW_4-02_Detail Event</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>aa42fe3e-f88b-480d-9dd8-c539815ab441</testCaseGuid>
-</TestCaseEntity>
