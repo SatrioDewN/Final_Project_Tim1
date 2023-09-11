@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Check the funtionality of Login button in the footer after Logged in</description>
-   <name>CDW_2-12_Login button footer after logged in</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5d0d0e63-3ba9-4fb2-a437-07e1d75b3b55</testCaseGuid>
-</TestCaseEntity>
