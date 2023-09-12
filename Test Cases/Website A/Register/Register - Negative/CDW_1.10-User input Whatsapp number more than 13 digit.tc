@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDW_1.10-User input Whatsapp number more than 13 digit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c30d91ad-09ae-4091-a691-89be3c21fb5f</testCaseGuid>
+</TestCaseEntity>

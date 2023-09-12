@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDW_1.4-Check Masuk button can be click or not when in email verification page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>307be9c2-4b62-42b8-8838-6ad246b7b114</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDA_2.6-Check response with birthdate blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>66e0997b-c9f1-4452-ac43-260c9051ab39</testCaseGuid>
+</TestCaseEntity>
