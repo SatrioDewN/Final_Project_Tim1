@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDA_2.8-Check response with photo field fill with random text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ef060eb-c928-4841-a039-e029e9dc9587</testCaseGuid>
+</TestCaseEntity>

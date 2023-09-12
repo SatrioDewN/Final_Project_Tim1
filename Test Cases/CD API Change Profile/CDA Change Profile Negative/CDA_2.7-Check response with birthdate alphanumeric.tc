@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDA_2.7-Check response with birthdate alphanumeric</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68fb549d-aacb-40b0-88c9-a0f215c3ecd7</testCaseGuid>
+</TestCaseEntity>

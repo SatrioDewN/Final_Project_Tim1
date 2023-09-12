@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDM_1.3-Input value into field Nama with all digit alphabetic</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07ec0313-b0b1-4dda-a808-a695d48e6354</testCaseGuid>
+</TestCaseEntity>
