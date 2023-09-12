@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check that search feature can works functionally when searching the event name</description>
+   <name>CDW_4-03_Search event name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e53675b8-57de-41e5-9144-7db9963bea7c</testCaseGuid>
+</TestCaseEntity>
