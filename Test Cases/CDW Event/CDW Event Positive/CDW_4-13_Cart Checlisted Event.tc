@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check that the event can be checklisted or not</description>
+   <name>CDW_4-13_Cart Checlisted Event</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dbcfbb72-f00d-4cdd-b31c-4d553cfc4e66</testCaseGuid>
+</TestCaseEntity>
