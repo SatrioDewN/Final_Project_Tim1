@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDA_2.9-Check response with birthdate less than 7 years age</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1c97fe0-17a4-4541-9f30-2af646832fe9</testCaseGuid>
+</TestCaseEntity>

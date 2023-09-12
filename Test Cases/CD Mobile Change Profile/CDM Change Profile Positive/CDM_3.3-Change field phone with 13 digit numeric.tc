@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDM_3.3-Change field phone with 13 digit numeric</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2487538f-ec35-40cc-9cb4-b13c9017b6bd</testCaseGuid>
+</TestCaseEntity>
