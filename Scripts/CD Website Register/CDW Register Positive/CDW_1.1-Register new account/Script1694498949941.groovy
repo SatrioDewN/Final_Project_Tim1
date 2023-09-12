@@ -33,14 +33,13 @@ WebUI.setText(findTestObject('Website A/Buat akun page/Field_Whatsapp'), '085221
 
 WebUI.setEncryptedText(findTestObject('Website A/Buat akun page/Field_Kata Sandi'), 'AWnwaDJYiAmw0Tn/ZROizA==')
 
-WebUI.setEncryptedText(findTestObject('Website A/Buat akun page/Field_Konfirmasi kata sandi'), 
-    'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.setEncryptedText(findTestObject('Website A/Buat akun page/Field_Konfirmasi kata sandi'), 'AWnwaDJYiAmw0Tn/ZROizA==')
 
 WebUI.click(findTestObject('Website A/Buat akun page/Checkbox_Daftar'))
 
 WebUI.click(findTestObject('Website A/Buat akun page/Btn_Daftar'))
 
-WebUI.verifyElementText(findTestObject('Buat akun page/text_Verifikasi Email-verifikasi page'), 'Verifikasi Email')
+WebUI.verifyElementText(findTestObject('Website A/Buat akun page/Text_Verifikasi Email'), 'Verifikasi Email')
 
 WebUI.closeBrowser()
 
