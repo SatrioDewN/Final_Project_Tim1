@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDA_2.10-Check response with whatsapp fill with alphanumeric and character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>963aed69-c776-4c2a-98e8-00d0e80cdae4</testCaseGuid>
+</TestCaseEntity>
