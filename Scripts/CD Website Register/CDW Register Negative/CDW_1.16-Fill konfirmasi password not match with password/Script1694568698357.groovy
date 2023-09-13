@@ -31,15 +31,15 @@ WebUI.setText(findTestObject('Website A/Buat akun page/Field_E-Mail'), 'contoh@m
 
 WebUI.setText(findTestObject('Website A/Buat akun page/Field_Whatsapp'), '085221698407')
 
-WebUI.setEncryptedText(findTestObject('Website A/Buat akun page/Field_Kata Sandi'), 'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.setText(findTestObject('Website A/Buat akun page/Field_Kata Sandi'), 'test1234')
 
-WebUI.setEncryptedText(findTestObject('Website A/Buat akun page/Field_Konfirmasi kata sandi'), 'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.setText(findTestObject('Website A/Buat akun page/Field_Konfirmasi kata sandi'), 'test12')
 
 WebUI.click(findTestObject('Website A/Buat akun page/Checkbox_Daftar'))
 
 WebUI.click(findTestObject('Website A/Buat akun page/Btn_Daftar'))
 
-WebUI.verifyElementText(findTestObject('Website A/Buat akun page/Text_Verifikasi Email'), 'Verifikasi Email')
+WebUI.verifyElementText(findTestObject('Website A/Buat akun page/text_kata sandi tidak sama'), 'kata sandi tidak sama')
 
 WebUI.closeBrowser()
 
