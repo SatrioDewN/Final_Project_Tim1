@@ -6,12 +6,12 @@
    <elementGuidId>28f99315-d96a-46a8-a6b8-3997925f8670</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div/form/div/figure/label/img</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>img.avatar-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;app&quot;]/div/div[3]/section/div/div/div/div/div/div/div/form/div[1]/figure/label/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>2ca0cf8e-4a8b-4716-ba39-a9eeaf78b218</webElementGuid>
+      <webElementGuid>ebb63df5-8094-42f5-85ab-a9b407f5b07b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/extra-images/icon/camera.png</value>
-      <webElementGuid>63b81ba4-14de-4f7d-9537-07026782d582</webElementGuid>
+      <webElementGuid>fbf8e9d6-209a-4bb6-815c-041ea105e1cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>avatar-icon</value>
-      <webElementGuid>f2affe73-c0c2-4324-82b9-b22df5206a43</webElementGuid>
+      <webElementGuid>546c4112-1f98-4568-8189-a5bc22a3294f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>...</value>
-      <webElementGuid>15a7a554-623c-4cdf-bef9-ada2c3016c04</webElementGuid>
+      <webElementGuid>5d850a69-64c8-48f3-ad0a-0bc940d80e2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper main-wrapper-1&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;section&quot;]/div[@class=&quot;section-body&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 col-md-12 col-lg-12&quot;]/div[@class=&quot;card author-box&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 col-md-12 col-lg-6&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;author-box-center&quot;]/figure[@class=&quot;avatar mr-2 avatar-xl&quot;]/label[1]/img[@class=&quot;avatar-icon&quot;]</value>
-      <webElementGuid>7626ce51-cdb1-4938-8424-b4ac86b1790e</webElementGuid>
+      <webElementGuid>d901d66f-dbba-4b14-96aa-0f8f5b5766ba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div/form/div/figure/label/img</value>
-      <webElementGuid>00bb6a79-ba29-4ec9-8af5-09a146d5582f</webElementGuid>
+      <webElementGuid>88b032ce-9acc-47b1-99d2-67193ad8f17b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='...']</value>
-      <webElementGuid>99d32f20-bcb6-4b67-8081-ba95b4ea8880</webElementGuid>
+      <webElementGuid>fc4ced82-694f-4626-b977-785077b2f256</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/img</value>
-      <webElementGuid>8f6709e1-f122-4efa-845b-7734ece89619</webElementGuid>
+      <webElementGuid>983bc376-66e8-471d-981a-ab6bbc710913</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/extra-images/icon/camera.png' and @alt = '...']</value>
-      <webElementGuid>ac349e3a-21e8-46fe-9580-450a2958ff76</webElementGuid>
+      <webElementGuid>f0469fb4-9ba4-4252-a4a5-b3de32731a53</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

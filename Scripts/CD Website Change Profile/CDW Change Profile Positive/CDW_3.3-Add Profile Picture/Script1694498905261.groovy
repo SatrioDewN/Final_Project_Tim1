@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Website A/Edit profile page/Btn_profile'))
 
 WebUI.click(findTestObject('Website A/Edit profile page/Btn_Edit Profile'))
 
-WebUI.click(findTestObject('Website A/Edit profile page/icon_Camera'))
+WebUI.uploadFile(findTestObject('Website A/Edit profile page/icon_Camera'), 'D:\\test_upload.jpg')
 
 WebUI.click(findTestObject('Website A/Edit profile page/Btn_Save Changes'))
 
