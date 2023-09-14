@@ -27,7 +27,11 @@ WebUI.click(findTestObject('Website A/Edit profile page/Btn_profile'))
 
 WebUI.click(findTestObject('Website A/Edit profile page/Btn_Edit Profile'))
 
-WebUI.uploadFile(findTestObject('Website A/Edit profile page/icon_Camera'), 'D:\\test_upload.jpg')
+String path = System.getProperty('user.dir')
+
+String filePath = path + '/Files/test_upload.jpg'
+
+WebUI.uploadFile(findTestObject('Website A/Edit profile page/icon_Camera'), filePath)
 
 WebUI.click(findTestObject('Website A/Edit profile page/Btn_Save Changes'))
 
