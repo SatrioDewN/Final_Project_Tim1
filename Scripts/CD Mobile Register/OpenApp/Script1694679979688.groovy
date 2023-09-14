@@ -17,19 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CD Mobile Register/OpenApp'), [:], FailureHandling.STOP_ON_FAILURE)
+String path = System.getProperty('user.dir')
 
-Mobile.tap(findTestObject('Object Repository/Mobile A/Homepage/Btn_Login-Here'), 0)
+String filePath = path + '/APK/DemoAppV2.apk'
 
-Mobile.tap(findTestObject('Object Repository/Mobile A/Register page/Btn_Register, now_Footer'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Mobile A/Register page/Text_Enter register page_Lets join our community'), 
-    'Lets join our community!')
-
-Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Kata sandi'), 'Test123', 0)
-
-Mobile.verifyElementText(findTestObject('Mobile A/Register page/Text_Password atleast must contain alphanumeric (a-Z,0-9) with minim 8 characters'), 
-    'Password atleast must contain alphanumeric (a-Z,0-9) with minim 8 characters')
-
-Mobile.closeApplication()
-
+Mobile.startApplication(filePath, true)
