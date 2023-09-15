@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Users\\bsi80195\\Downloads\\DemoAppV2.apk', true)
+WebUI.callTestCase(findTestCase('CD Mobile Register/OpenApp'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Mobile/Home Page/Button_See All'), 0)
 
