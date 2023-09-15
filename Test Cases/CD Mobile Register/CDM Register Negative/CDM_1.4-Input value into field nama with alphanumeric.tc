@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CDM_1.4-Input value into field nama with alphanumeric</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>bb6eb15e-f8e5-4c21-8673-b63a0dfe4fa9</testCaseGuid>
-</TestCaseEntity>

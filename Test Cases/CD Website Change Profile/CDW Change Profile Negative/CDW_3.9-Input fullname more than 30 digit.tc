@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CDW_3.9-Input fullname more than 30 digit</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a388c586-2c0d-465d-92c1-ce165a4843b4</testCaseGuid>
-</TestCaseEntity>
