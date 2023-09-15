@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CDW_3.1-Change Whatsapp</name>
+   <name>CDW_3.03-Add Profile Picture</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d5345091-4114-4651-b9fa-15990e526006</testCaseGuid>
+   <testCaseGuid>2d828b79-37cd-4d7b-9aba-8c90ac79cb8e</testCaseGuid>
 </TestCaseEntity>

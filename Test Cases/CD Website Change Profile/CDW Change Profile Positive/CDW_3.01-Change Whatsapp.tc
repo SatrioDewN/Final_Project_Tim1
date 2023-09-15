@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CDW_1.5-Fill birthdate with minimum 7 years</name>
+   <name>CDW_3.01-Change Whatsapp</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>269a4cbf-9190-49d7-9514-5029d05ef3f2</testCaseGuid>
+   <testCaseGuid>d5345091-4114-4651-b9fa-15990e526006</testCaseGuid>
 </TestCaseEntity>
