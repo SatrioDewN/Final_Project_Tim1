@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CDM_3.4-Change birthdate field into blank value</name>
+   <name>CDM_3.03-Change field phone with 13 digit numeric</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fb9ad572-f89f-40f4-89a5-1040ff3bf831</testCaseGuid>
+   <testCaseGuid>2487538f-ec35-40cc-9cb4-b13c9017b6bd</testCaseGuid>
 </TestCaseEntity>
