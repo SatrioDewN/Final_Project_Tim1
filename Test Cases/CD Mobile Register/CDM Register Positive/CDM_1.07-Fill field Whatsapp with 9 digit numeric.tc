@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CDM_1.1-Register new account</name>
+   <name>CDM_1.07-Fill field Whatsapp with 9 digit numeric</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>121499cf-9f14-4ef1-a503-bd5bd3d0ce7c</testCaseGuid>
+   <testCaseGuid>0170bcd8-cd09-41e6-9d7b-b4f21f1cf5c3</testCaseGuid>
 </TestCaseEntity>

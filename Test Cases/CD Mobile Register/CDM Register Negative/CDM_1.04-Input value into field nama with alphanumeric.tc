@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CDM_1.8-Fill field Whatsapp with 8 digit numeric</name>
+   <name>CDM_1.04-Input value into field nama with alphanumeric</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>67872f75-d33d-4227-8499-fe74d43edcd7</testCaseGuid>
+   <testCaseGuid>bb6eb15e-f8e5-4c21-8673-b63a0dfe4fa9</testCaseGuid>
 </TestCaseEntity>

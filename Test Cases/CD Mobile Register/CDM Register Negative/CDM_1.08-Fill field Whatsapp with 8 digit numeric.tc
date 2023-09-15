@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CDM_3.4-Change birthdate field into blank value</name>
+   <name>CDM_1.08-Fill field Whatsapp with 8 digit numeric</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fb9ad572-f89f-40f4-89a5-1040ff3bf831</testCaseGuid>
+   <testCaseGuid>67872f75-d33d-4227-8499-fe74d43edcd7</testCaseGuid>
 </TestCaseEntity>
