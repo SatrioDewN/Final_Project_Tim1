@@ -17,7 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('API/Login Blank Email and Blank Password'))
+response = WS.sendRequest(findTestObject('API/Login Valid Email and Valid Password'))
 
-WS.verifyResponseStatusCode(response, 401)
-
+WS.verifyResponseStatusCode(response, 200)

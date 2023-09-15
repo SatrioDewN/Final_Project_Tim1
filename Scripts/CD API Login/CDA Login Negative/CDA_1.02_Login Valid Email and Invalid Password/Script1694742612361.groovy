@@ -20,4 +20,3 @@ import org.openqa.selenium.Keys as Keys
 response = WS.sendRequest(findTestObject('API/Login Valid Email and Invalid Password'))
 
 WS.verifyResponseStatusCode(response, 401)
-
