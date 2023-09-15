@@ -21,9 +21,9 @@ WebUI.callTestCase(findTestCase('CD Mobile Register/OpenApp'), [:], FailureHandl
 
 Mobile.tap(findTestObject('Mobile A/Homepage/Btn_Login-Here'), 0)
 
-Mobile.setText(findTestObject('Mobile A/Login Page/Field_Email-Login Page'), 'aditya.dwinugraha@mail.ugm.ac.id', 0)
+Mobile.setText(findTestObject('Mobile A/Login Page/Field_Email-Login Page'), GlobalVariable.LoginEmail, 0)
 
-Mobile.setText(findTestObject('Mobile A/Login Page/Field_password-login page'), 'Adittest1', 0)
+Mobile.setText(findTestObject('Mobile A/Login Page/Field_password-login page'), GlobalVariable.LoginPassword, 0)
 
 Mobile.tap(findTestObject('Mobile A/Login Page/Btn_Login'), 0)
 
@@ -35,7 +35,7 @@ Mobile.tap(findTestObject('Object Repository/Mobile A/Profile/Btn_icon gear prof
 
 Mobile.tap(findTestObject('Object Repository/Mobile A/Profile/Btn_Edit profile-profile page'), 0)
 
-Mobile.setText(findTestObject('Mobile A/Edit profile/Field_Phone'), '0811222233334', 0)
+Mobile.setText(findTestObject('Mobile A/Edit profile/Field_Phone'), GlobalVariable.ProfilePhone13digit, 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile A/Edit profile/Btn_Save changes-edit profile'), 0)
 

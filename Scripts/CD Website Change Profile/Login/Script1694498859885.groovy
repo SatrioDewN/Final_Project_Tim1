@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.navigateToUrl(GlobalVariable.WebUrl)
 
 WebUI.click(findTestObject('Website A/Homepage/Btn_Masuk'))
 
-WebUI.setText(findTestObject('Website A/Masuk page/Field_Email'), 'dwinugrahaaditya29@gmail.com')
+WebUI.setText(findTestObject('Website A/Masuk page/Field_Email'), GlobalVariable.LoginEmail)
 
-WebUI.setText(findTestObject('Website A/Masuk page/Field_kata sandi'), 'Adittest')
+WebUI.setText(findTestObject('Website A/Masuk page/Field_kata sandi'), GlobalVariable.LoginPassword)
 
 WebUI.click(findTestObject('Website A/Masuk page/Btn_Login'))
 

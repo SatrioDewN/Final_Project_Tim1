@@ -23,15 +23,15 @@ WebUI.navigateToUrl('https://demo-app.online/')
 
 WebUI.click(findTestObject('Website A/Homepage/Btn_buat akun'))
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_nama'), 'Adit Testing')
+WebUI.setText(findTestObject('Website A/Buat akun page/Field_nama'), GlobalVariable.RegisterNama)
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_tanggal lahir'), '29-03-1997')
+WebUI.setText(findTestObject('Website A/Buat akun page/Field_tanggal lahir'), GlobalVariable.RegisterBirthDate)
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_E-Mail'), 'contoh@mail.com')
+WebUI.setText(findTestObject('Website A/Buat akun page/Field_E-Mail'), GlobalVariable.RegisterEmail)
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_Whatsapp'), '085221698407')
+WebUI.setText(findTestObject('Website A/Buat akun page/Field_Whatsapp'), GlobalVariable.RegisterPhone)
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_Kata Sandi'), 'test1234')
+WebUI.setText(findTestObject('Website A/Buat akun page/Field_Kata Sandi'), GlobalVariable.RegisterSandi)
 
 WebUI.setText(findTestObject('Website A/Buat akun page/Field_Konfirmasi kata sandi'), 'test12')
 

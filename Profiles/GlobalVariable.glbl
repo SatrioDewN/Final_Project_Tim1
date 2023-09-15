@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>GlobalVariable</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'leonleigard@gmail.com'</initValue>
+      <name>LoginEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Workinghour1!'</initValue>
+      <name>LoginPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0821323424765'</initValue>
+      <name>ProfilePhone13digit</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Adit Testing'</initValue>
+      <name>RegisterNama</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'contoh@mail.com'</initValue>
+      <name>RegisterEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'085221698409'</initValue>
+      <name>RegisterPhone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test1234'</initValue>
+      <name>RegisterSandi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test1234'</initValue>
+      <name>RegisterConfirmSandi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo-app.online/'</initValue>
+      <name>WebUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'29-03-1997'</initValue>
+      <name>RegisterBirthDate</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

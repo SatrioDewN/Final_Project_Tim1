@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.navigateToUrl(GlobalVariable.WebUrl)
 
 WebUI.click(findTestObject('Website/Home Page/Button_Masuk_Header'))
 

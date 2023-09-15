@@ -26,7 +26,7 @@ Mobile.tap(findTestObject('Object Repository/Mobile A/Register page/Btn_Register
 Mobile.verifyElementText(findTestObject('Object Repository/Mobile A/Register page/Text_Enter register page_Lets join our community'), 
     'Lets join our community!')
 
-Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Nama'), 'testing', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Nama'), GlobalVariable.RegisterNama, 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile A/Register page/Btn_Date_icon'), 0)
 
@@ -34,13 +34,16 @@ Mobile.tap(findTestObject('Object Repository/Mobile A/Register page/Btn_Date-num
 
 Mobile.tap(findTestObject('Object Repository/Mobile A/Register page/Btn_OK in date calendar'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Email'), 'contoh@mail.com', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Email'), GlobalVariable.RegisterEmail, 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Whatsapp-number'), '081122223333', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Whatsapp-number'), GlobalVariable.RegisterPhone, 
+    0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Kata sandi'), 'Adittest1', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Kata sandi'), GlobalVariable.RegisterSandi, 
+    0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Konfirmasi kata sandi'), 'Adittest1', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Konfirmasi kata sandi'), GlobalVariable.RegisterConfirmSandi, 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile A/Register page/Checkbox_Term and condition'), 0)
 

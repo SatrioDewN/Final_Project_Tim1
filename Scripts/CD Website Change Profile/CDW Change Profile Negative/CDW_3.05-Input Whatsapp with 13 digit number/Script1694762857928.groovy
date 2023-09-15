@@ -17,17 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://demo-app.online/')
-
-WebUI.click(findTestObject('Website A/Homepage/Btn_Masuk'))
-
-WebUI.setText(findTestObject('Website A/Masuk page/Field_Email'), 'dwinugrahaaditya29@gmail.com')
-
-WebUI.setText(findTestObject('Website A/Masuk page/Field_kata sandi'), 'Adittest')
-
-WebUI.click(findTestObject('Website A/Masuk page/Btn_Login'))
+WebUI.callTestCase(findTestCase('CD Website Change Profile/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Website A/Homepage/Btn_icon profile'))
 
@@ -37,7 +27,7 @@ WebUI.click(findTestObject('Website A/Edit profile page/Btn_profile'))
 
 WebUI.click(findTestObject('Website A/Edit profile page/Btn_Edit Profile'))
 
-WebUI.setText(findTestObject('Website A/Edit profile page/Field_Phone'), '6123456789121')
+WebUI.setText(findTestObject('Website A/Edit profile page/Field_Phone'), GlobalVariable.ProfilePhone13digit)
 
 WebUI.click(findTestObject('Website A/Edit profile page/Btn_Save Changes'))
 
