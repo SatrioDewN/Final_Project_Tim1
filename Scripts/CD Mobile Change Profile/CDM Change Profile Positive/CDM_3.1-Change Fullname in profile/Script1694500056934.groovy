@@ -29,11 +29,13 @@ Mobile.tap(findTestObject('Mobile A/Login Page/Btn_Login'), 0)
 
 Mobile.tap(findTestObject('Mobile A/Homepage/Btn_icon profile-homepage-already login'), 0)
 
+Mobile.verifyElementText(findTestObject('Mobile/Profile Page/Text_Detail Information'), 'Detail Information')
+
 Mobile.tap(findTestObject('Object Repository/Mobile A/Profile/Btn_icon gear profile'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile A/Profile/Btn_Edit profile-profile page'), 0)
 
-Mobile.setText(findTestObject('Mobile A/Edit profile/Field_Fullname-Edit profile page'), 'testing changes', 0)
+Mobile.setText(findTestObject('Mobile A/Edit profile/Field_Fullname-Edit profile page'), 'testing', 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile A/Edit profile/Btn_Save changes-edit profile'), 0)
 
