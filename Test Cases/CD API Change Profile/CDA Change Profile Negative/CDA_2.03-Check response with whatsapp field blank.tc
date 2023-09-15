@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDA_2.03-Check response with whatsapp field blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09cb5bb5-cf08-457d-a781-836c0ae73cc0</testCaseGuid>
+</TestCaseEntity>

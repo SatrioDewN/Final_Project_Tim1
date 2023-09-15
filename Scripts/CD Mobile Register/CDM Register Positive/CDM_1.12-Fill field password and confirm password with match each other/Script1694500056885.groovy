@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Users\\bsi80197\\Downloads\\DemoAppV2 (1).apk', true)
+WebUI.callTestCase(findTestCase('CD Mobile Register/OpenApp'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Mobile A/Homepage/Btn_Login-Here'), 0)
 
@@ -26,7 +26,7 @@ Mobile.tap(findTestObject('Object Repository/Mobile A/Register page/Btn_Register
 Mobile.verifyElementText(findTestObject('Object Repository/Mobile A/Register page/Text_Enter register page_Lets join our community'), 
     'Lets join our community!')
 
-Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Nama'), 'testing', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Nama'), GlobalVariable.RegisterNama, 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile A/Register page/Btn_Date_icon'), 0)
 
@@ -34,13 +34,16 @@ Mobile.tap(findTestObject('Object Repository/Mobile A/Register page/Btn_Date-num
 
 Mobile.tap(findTestObject('Object Repository/Mobile A/Register page/Btn_OK in date calendar'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Email'), 'contoh@mail.com', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Email'), GlobalVariable.RegisterEmail, 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Whatsapp-number'), '081122223333', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Whatsapp-number'), GlobalVariable.RegisterPhone, 
+    0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Kata sandi'), 'Test1234', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Kata sandi'), GlobalVariable.RegisterSandi, 
+    0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Konfirmasi kata sandi'), 'Test1234', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile A/Register page/Field_Konfirmasi kata sandi'), GlobalVariable.RegisterConfirmSandi, 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile A/Register page/Checkbox_Term and condition'), 0)
 
