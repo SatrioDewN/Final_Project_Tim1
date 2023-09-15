@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDW_1.07-Input Tanggal lahir with age less than 7</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf23f59d-6583-41df-a9e0-6ba238b96239</testCaseGuid>
+</TestCaseEntity>

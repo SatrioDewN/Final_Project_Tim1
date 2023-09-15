@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CDM_3.2-Delete Fullname into blank</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>32065fbd-8102-4a3e-b3fb-f212425a2c24</testCaseGuid>
-</TestCaseEntity>

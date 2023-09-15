@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CDM_1.6-Register with input field E-mail without domain</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>cadd159e-7490-4174-b087-19988a26071d</testCaseGuid>
-</TestCaseEntity>
