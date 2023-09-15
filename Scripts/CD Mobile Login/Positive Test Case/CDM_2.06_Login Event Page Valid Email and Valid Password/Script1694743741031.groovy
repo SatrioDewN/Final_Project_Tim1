@@ -29,11 +29,11 @@ Mobile.verifyElementText(findTestObject('Mobile/Sign in Page/Text_Sign In'), 'Si
 
 Mobile.tap(findTestObject('Mobile/Sign in Page/Field_Email Event'), 0)
 
-Mobile.setText(findTestObject('Mobile/Sign in Page/Field_Email Event'), 'leonleigard@gmail.com', 0)
+Mobile.setText(findTestObject('Mobile/Sign in Page/Field_Email Event'), GlobalVariable.LoginEmail, 0)
 
 Mobile.tap(findTestObject('Mobile/Sign in Page/Field_Event Password'), 0)
 
-Mobile.setText(findTestObject('Mobile/Sign in Page/Field_Event Password'), 'Workinghour1!', 0)
+Mobile.setText(findTestObject('Mobile/Sign in Page/Field_Event Password'), GlobalVariable.LoginPassword, 0)
 
 Mobile.tap(findTestObject('Mobile/Sign in Page/Button_Login'), 0)
 

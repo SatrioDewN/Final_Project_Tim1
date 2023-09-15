@@ -19,14 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.navigateToUrl(GlobalVariable.WebUrl)
 
 WebUI.click(findTestObject('Website A/Homepage/Btn_buat akun'))
 
 WebUI.click(findTestObject('Website A/Masuk page/Btn_Sign Up footer'))
 
-WebUI.verifyElementText(findTestObject('Website A/Buat akun page/Text_Buat Akun Baru'), 
-    'Buat Akun Baru')
+WebUI.verifyElementText(findTestObject('Website A/Buat akun page/Text_Buat Akun Baru'), 'Buat Akun Baru')
 
 WebUI.closeBrowser()
 

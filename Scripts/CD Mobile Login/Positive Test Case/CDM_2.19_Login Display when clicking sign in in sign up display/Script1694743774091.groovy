@@ -23,11 +23,11 @@ Mobile.tap(findTestObject('Mobile/Home Page/Button_Login Here'), 0)
 
 Mobile.verifyElementText(findTestObject('Mobile/Sign in Page/Text_Sign In'), 'Sign In')
 
-Mobile.setText(findTestObject('Mobile/Sign in Page/Field_Input Password'), 'Workinghour1!', 0)
+Mobile.setText(findTestObject('Mobile/Sign in Page/Field_Input Password'), GlobalVariable.LoginPassword, 0)
 
 Mobile.tap(findTestObject('Mobile/Sign in Page/Button_Login Eye'), 0)
 
-Mobile.verifyElementText(findTestObject('Mobile/Sign in Page/Field_Input Password'), 'Workinghour1!')
+Mobile.verifyElementText(findTestObject('Mobile/Sign in Page/Field_Input Password'), GlobalVariable.LoginPassword)
 
 Mobile.closeApplication()
 
