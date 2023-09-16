@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Website/Home Page/Button_Masuk_Header'))
 
 WebUI.setText(findTestObject('Website/Login Page/Field_Email'), GlobalVariable.LoginEmail)
 
-WebUI.setEncryptedText(findTestObject('Website/Login Page/Field_Password'), GlobalVariable.LoginPassword)
+WebUI.setText(findTestObject('Website/Login Page/Field_Password'), GlobalVariable.LoginPassword)
 
 WebUI.click(findTestObject('Website/Login Page/Button_Login'))
 
@@ -36,6 +36,10 @@ WebUI.click(findTestObject('Website/Event Page/Event_Day 3 Predict using Machine
 WebUI.click(findTestObject('Website/Event Day 3 Page/Button_Beli Tiket'))
 
 WebUI.verifyElementText(findTestObject('Website/Event Day 3 Page/Verify_Add to cart Day 3 success'), 'add to cart success')
+
+WebUI.click(findTestObject('Website/Event Day 3 Page/Button_Pembelian Saya Day3'))
+
+WebUI.click(findTestObject('Website/Cart Page/Remove_Cart'))
 
 WebUI.closeBrowser()
 
