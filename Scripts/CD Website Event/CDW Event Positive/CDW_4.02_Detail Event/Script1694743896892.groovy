@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Website/Home Page/Button_Masuk_Header'))
 
 WebUI.setText(findTestObject('Website/Login Page/Field_Email'), GlobalVariable.LoginEmail)
 
-WebUI.setEncryptedText(findTestObject('Website/Login Page/Field_Password'), GlobalVariable.LoginPassword)
+WebUI.setText(findTestObject('Website/Login Page/Field_Password'), GlobalVariable.LoginPassword)
 
 WebUI.click(findTestObject('Website/Login Page/Button_Login'))
 

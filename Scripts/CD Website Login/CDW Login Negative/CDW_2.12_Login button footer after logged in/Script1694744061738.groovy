@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Website/Home Page/Button_Masuk_Header'))
 
 WebUI.setText(findTestObject('Website/Login Page/Field_Email'), 'leonleigard@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Website/Login Page/Field_Password'), 'NTfjWyf5Me+Fsw176dhxtw==')
+WebUI.setText(findTestObject('Website/Login Page/Field_Password'), 'Workinghour1!')
 
 WebUI.click(findTestObject('Website/Login Page/Button_Login'))
 
