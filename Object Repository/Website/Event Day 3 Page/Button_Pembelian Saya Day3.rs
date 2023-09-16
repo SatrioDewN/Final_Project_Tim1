@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Pembelian Saya Day3</name>
+   <tag></tag>
+   <elementGuidId>1e3ffb94-de64-443a-bb46-3ee31944e788</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='checkoutButton']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#checkoutButton</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a645ed1c-ee46-4835-af86-36d6039d97f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/view_cart/129</value>
+      <webElementGuid>fd11a76c-46e0-4be5-a597-261c1bc59617</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>checkoutButton</value>
+      <webElementGuid>ed082684-a7b4-4fdb-8684-1eceb3d5870d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lihat
+                Pembelian Saya</value>
+      <webElementGuid>3aa7c8e9-0e9c-4abb-83d1-d14b0b3a4699</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;checkoutButton&quot;)</value>
+      <webElementGuid>dc714d4b-4d29-407e-a1b5-746394f26b73</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='checkoutButton']</value>
+      <webElementGuid>17712290-e472-4f46-8b55-9ed3c5288145</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Modal_Success']/div/div[2]/a</value>
+      <webElementGuid>9099ce6f-90d7-49c5-8c2a-85416ef7ff04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Lihat
+                Pembelian Saya')]</value>
+      <webElementGuid>73284e18-5d39-45f1-aec9-a927f1ce4b25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Day 3: Predict using Machine Learning'])[3]/following::a[1]</value>
+      <webElementGuid>9f024cb1-b4e6-41d6-b755-ae8e605291c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='add to cart success'])[1]/following::a[1]</value>
+      <webElementGuid>1a3a1634-ffbc-4e98-9906-0ef59e78e424</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Event Lainnya'])[1]/preceding::a[1]</value>
+      <webElementGuid>782681d2-4146-420b-9239-6e020813bd24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © 2010-2021 Coding.ID All rights reserved.'])[1]/preceding::a[2]</value>
+      <webElementGuid>07bd6e77-ec21-4f64-8137-5d82765cc7fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/view_cart/129')]</value>
+      <webElementGuid>1e7f8153-ae07-474a-9d4f-4b39ff699444</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div[2]/a</value>
+      <webElementGuid>4f22c928-707c-42f6-98ed-03d770d71ec6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/view_cart/129' and @id = 'checkoutButton' and (text() = 'Lihat
+                Pembelian Saya' or . = 'Lihat
+                Pembelian Saya')]</value>
+      <webElementGuid>ed55faa9-bac1-4381-94d6-ebfb420d3b44</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
