@@ -12,10 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>aeebcc5f-cceb-40d5-95e7-2a0a22cf802d</testSuiteGuid>
    <testCaseLink>
-      <guid>04aa8b57-c1dd-46d8-aed1-41587d872acc</guid>
+      <guid>d31afd79-58de-4613-9c75-c6528c35b602</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CD Mobile Change Profile/CDM Change Profile Positive/CDM_3.01-Change Fullname in profile</testCaseId>
+      <testCaseId>Test Cases/CD Mobile Change Profile/CDM Change Profile Negative/CDM_3.04-Change birthdate field into blank value</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -33,10 +33,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d31afd79-58de-4613-9c75-c6528c35b602</guid>
+      <guid>04aa8b57-c1dd-46d8-aed1-41587d872acc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CD Mobile Change Profile/CDM Change Profile Negative/CDM_3.04-Change birthdate field into blank value</testCaseId>
+      <testCaseId>Test Cases/CD Mobile Change Profile/CDM Change Profile Positive/CDM_3.01-Change Fullname in profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
